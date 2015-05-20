@@ -19,7 +19,6 @@ var banner = (
 );
 
 var plugins = [
-    new ExtractTextPlugin('[name].css'),
     new webpack.DefinePlugin({
         '__DEV__': JSON.stringify(process.env.NODE_ENV !== 'production')
     }),
